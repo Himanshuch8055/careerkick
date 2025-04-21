@@ -19,7 +19,13 @@ const ProductList = ({ category, name }) => {
       const response = category || name
         ? await searchProducts(category, name)
         : await getProducts();
-      setProducts(response.data);
+      // Ensure products is always an array
+      let productsArray = Array.isArray(response.data)
+        ? response.data
+        : Array.isArray(response.data?.products)
+          ? response.data.products
+          : [];
+      setProducts(productsArray);
     } catch (error) {
       console.error("Error fetching products:", error);
     }
