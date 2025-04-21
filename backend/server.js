@@ -22,6 +22,9 @@ mongoose
   });
 
 // Routes
+app.get("/", (req, res) => {
+  res.send("Hello World!");
+});
 app.use("/api/products", require("./routes/productRoutes"));
 app.use("/api/cart", require("./routes/cartRoutes"));
 app.use("/api/orders", require("./routes/orderRoutes"));
