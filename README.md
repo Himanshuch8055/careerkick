@@ -143,3 +143,50 @@ Contributions are welcome! To contribute:
 ## License
 This project is licensed under the MIT License.
 
+---
+
+## Assignment Feature Checklist
+
+| Feature                                   | Implemented? |
+|--------------------------------------------|:------------:|
+| Product listing page                       |      ✅      |
+| Product search/filter                      |      ✅      |
+| Add to cart                               |      ✅      |
+| Cart page (item list + total price)        |      ✅      |
+| Responsive design (mobile + desktop)       |      ✅      |
+| Store data in database (MongoDB)           |      ✅      |
+| Order summary/confirmation                 |      ✅      |
+| Dummy login/register system                |      ✅      |
+| Use of framework (React, Express)          |      ✅      |
+| API usage for fetching product data        |      ✅      |
+
+---
+
+## Screenshots
+
+> _Add screenshots of your UI below. Example:_
+
+![Home Page](frontend/screenshots/home.png)
+![Product List](frontend/screenshots/products.png)
+![Cart Page](frontend/screenshots/cart.png)
+
+---
+
+## Live Demo
+
+> _If deployed, add your link below:_
+
+[Live Demo](https://your-live-demo-link.com)
+
+---
+
+## How to Run Tests
+
+_No automated tests included yet. To manually test, follow usage instructions and try all flows (register, login, add to cart, checkout, view orders)._
+
+---
+
+## Contact
+
+For questions, open an issue or email: [support@careerkick.com](mailto:support@careerkick.com)
+
